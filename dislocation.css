@@ -1,0 +1,91 @@
+#body {
+  background-color: black;
+  overflow: hidden;
+}
+
+#menu {
+  list-style-type: none;
+  margin: -8.25px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  box-shadow: 0px 10px rgb(43, 72, 119);
+}
+
+#title {
+  float: left;
+  display: block
+  
+}
+
+#cubes {
+  position: relative;
+}
+
+#cube {
+  position: absolute;
+  top: -200px;
+  z-index: -1;
+}
+
+#cube2 {
+  position: absolute;
+  top: -200px;
+  z-index: -1;
+  right: 0;
+}
+
+#gloveJPG {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-width: thick;
+  border-color: rgb(60, 99, 163);
+  border-style: solid;
+  text-align: center;
+  box-shadow: 10px 10px rgb(43, 72, 119);
+}
+
+.textBox {
+  background-color: rgb(60, 99, 163);
+  text-align: center;
+  display: block;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: eras;
+  font-size: 20px;
+  color: white;
+  box-shadow: 10px 10px rgb(43, 72, 119);
+}
+
+.heading {
+  float: left;
+}
+
+.menuitem {
+  float: right;
+}
+
+.menuitem a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  text-decoration: none;
+  font-family: eras;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.menuitem a:hover {
+  background-color: #333333;
+}
+
+@font-face {
+  font-family: eras;
+  src: url(Misc/eras.ttf);
+}
