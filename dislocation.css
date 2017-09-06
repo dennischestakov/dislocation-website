@@ -1,6 +1,6 @@
 #body {
   background-color: black;
-  overflow: hidden;
+  overflow: auto;
 }
 
 #menu {
@@ -12,10 +12,28 @@
   box-shadow: 0px 10px rgb(43, 72, 119);
 }
 
+#updatesContainer {
+  height: 50vh;
+  width: 50vw;
+  background-color: rgb(60, 99, 163);
+  display: block;
+  box-shadow: 10px 10px rgb(43, 72, 119);
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow: auto;
+  border-width: thick;
+  border-color: rgb(60, 99, 163);
+  border-style: solid;
+}
+
 #title {
   float: left;
   display: block
-  
+
 }
 
 #cubes {
@@ -35,7 +53,7 @@
   right: 0;
 }
 
-#gloveJPG {
+#picture {
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -44,6 +62,24 @@
   border-style: solid;
   text-align: center;
   box-shadow: 10px 10px rgb(43, 72, 119);
+}
+
+#license {
+  font-family: eras;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  background-color: rgb(60, 99, 163);
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.licenseLink:link {
+  color: white;
+}
+
+.licenseLink:visited {
+  color: white;
 }
 
 .textBox {
@@ -62,8 +98,27 @@
   box-shadow: 10px 10px rgb(43, 72, 119);
 }
 
+.update {
+  background-color: rgb(43, 72, 119);
+  text-align: center;
+  display: block;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  padding-left: 2px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: lighter;
+  font-family: eras;
+  font-size: 20px;
+  color: white;
+  box-shadow: 10px 10px rgb(9, 40, 91);
+}
+
 .heading {
-  float: left;
+   text-shadow: 2px 2px 8px rgb(142, 185, 255);
 }
 
 .menuitem {
